@@ -1,0 +1,6 @@
+20:29:29 **** Incremental Build of configuration Debug for project lesson10 ****
+make all 
+make: Цель «all» не требует выполнения команд.
+
+20:29:29 Build Finished (took 68ms)
+

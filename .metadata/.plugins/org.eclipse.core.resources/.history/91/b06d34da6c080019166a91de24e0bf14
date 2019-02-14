@@ -1,0 +1,13 @@
+/*
+ * Main.c
+ *
+ *  Created on: 25.12.2018
+ *      Author: advuser
+ */
+
+#include <stdio.h>
+
+int main() {
+	printf("Hello world!");
+	return 0;
+}

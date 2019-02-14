@@ -1,0 +1,15 @@
+20:29:19 **** Build of configuration Debug for project lesson10 ****
+make all 
+Building file: ../src/lesson10.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lesson10.d" -MT"src/lesson10.d" -o "src/lesson10.o" "../src/lesson10.c"
+Finished building: ../src/lesson10.c
+ 
+Building target: lesson10
+Invoking: Cross GCC Linker
+gcc  -o "lesson10"  ./src/lesson10.o   
+Finished building target: lesson10
+ 
+20:29:29 **** Incremental Build of configuration Debug for project lesson10 ****
+make all 
+make: Цель «all» не требует выполнения команд.
