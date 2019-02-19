@@ -1,15 +1,363 @@
-20:29:19 **** Build of configuration Debug for project lesson10 ****
+19:25:13 **** Incremental Build of configuration Debug for project hello ****
 make all 
-Building file: ../src/lesson10.c
+Building file: ../src/hello.c
 Invoking: Cross GCC Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/lesson10.d" -MT"src/lesson10.d" -o "src/lesson10.o" "../src/lesson10.c"
-Finished building: ../src/lesson10.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function ‘getArr’:
+../src/hello.c:19:6: warning: unused variable ‘a’ [-Wunused-variable]
+  int a, i;
+      ^
+../src/hello.c: In function ‘main’:
+../src/hello.c:58:19: warning: passing argument 1 of ‘getArr’ from incompatible pointer type [-Wincompatible-pointer-types]
+  int res = getArr(&arr);
+                   ^
+../src/hello.c:17:5: note: expected ‘int **’ but argument is of type ‘int (*)[10]’
+ int getArr(int* arr[]){
+     ^
+Finished building: ../src/hello.c
  
-Building target: lesson10
+Building target: hello
 Invoking: Cross GCC Linker
-gcc  -o "lesson10"  ./src/lesson10.o   
-Finished building target: lesson10
+gcc  -o "hello"  ./src/hello.o   -lm
+Finished building target: hello
  
-20:29:29 **** Incremental Build of configuration Debug for project lesson10 ****
+19:25:20 **** Incremental Build of configuration Debug for project hello ****
+make all 
+make: Цель «all» не требует выполнения команд.
+19:25:55 **** Incremental Build of configuration Debug for project hello ****
+make all 
+make: Цель «all» не требует выполнения команд.
+19:28:43 **** Incremental Build of configuration Debug for project hello ****
+make all 
+Building file: ../src/hello.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function ‘getArr’:
+../src/hello.c:19:6: warning: unused variable ‘a’ [-Wunused-variable]
+  int a, i;
+      ^
+Finished building: ../src/hello.c
+ 
+Building target: hello
+Invoking: Cross GCC Linker
+gcc  -o "hello"  ./src/hello.o   -lm
+Finished building target: hello
+ 
+19:29:04 **** Incremental Build of configuration Debug for project hello ****
+make all 
+Building file: ../src/hello.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+Finished building: ../src/hello.c
+ 
+Building target: hello
+Invoking: Cross GCC Linker
+gcc  -o "hello"  ./src/hello.o   -lm
+Finished building target: hello
+ 
+19:29:16 **** Incremental Build of configuration Debug for project hello ****
+make all 
+make: Цель «all» не требует выполнения команд.
+19:29:21 **** Incremental Build of configuration Debug for project hello ****
+make all 
+make: Цель «all» не требует выполнения команд.
+19:37:24 **** Incremental Build of configuration Debug for project hello ****
+make all 
+Building file: ../src/hello.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+Finished building: ../src/hello.c
+ 
+Building target: hello
+Invoking: Cross GCC Linker
+gcc  -o "hello"  ./src/hello.o   -lm
+Finished building target: hello
+ 
+19:40:31 **** Incremental Build of configuration Debug for project hello ****
+make all 
+Building file: ../src/hello.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function ‘main’:
+../src/hello.c:58:19: warning: passing argument 1 of ‘getArr’ from incompatible pointer type [-Wincompatible-pointer-types]
+  int res = getArr(&arr);
+                   ^
+../src/hello.c:17:5: note: expected ‘int **’ but argument is of type ‘int (*)[10]’
+ int getArr(int* arr[]){
+     ^
+../src/hello.c:58:6: warning: unused variable ‘res’ [-Wunused-variable]
+  int res = getArr(&arr);
+      ^
+Finished building: ../src/hello.c
+ 
+Building target: hello
+Invoking: Cross GCC Linker
+gcc  -o "hello"  ./src/hello.o   -lm
+Finished building target: hello
+ 
+19:40:40 **** Incremental Build of configuration Debug for project hello ****
+make all 
+make: Цель «all» не требует выполнения команд.
+19:44:38 **** Incremental Build of configuration Debug for project hello ****
+make all 
+Building file: ../src/hello.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function ‘main’:
+../src/hello.c:58:19: warning: passing argument 1 of ‘getArr’ from incompatible pointer type [-Wincompatible-pointer-types]
+  int res = getArr(&arr);
+                   ^
+../src/hello.c:17:5: note: expected ‘int **’ but argument is of type ‘int (*)[10]’
+ int getArr(int* arr[LENGTH_ARR]){
+     ^
+../src/hello.c:58:6: warning: unused variable ‘res’ [-Wunused-variable]
+  int res = getArr(&arr);
+      ^
+Finished building: ../src/hello.c
+ 
+Building target: hello
+Invoking: Cross GCC Linker
+gcc  -o "hello"  ./src/hello.o   -lm
+Finished building target: hello
+ 
+19:44:47 **** Incremental Build of configuration Debug for project hello ****
+make all 
+make: Цель «all» не требует выполнения команд.
+19:46:40 **** Incremental Build of configuration Debug for project hello ****
+make all 
+Building file: ../src/hello.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function ‘getArr’:
+../src/hello.c:22:6: error: invalid type argument of unary ‘*’ (have ‘int’)
+   if(*arr[i] % 2 != 0){
+      ^
+../src/hello.c:23:4: error: invalid type argument of unary ‘*’ (have ‘int’)
+    *arr[i] = *arr[i]*2;
+    ^
+../src/hello.c:23:14: error: invalid type argument of unary ‘*’ (have ‘int’)
+    *arr[i] = *arr[i]*2;
+              ^
+../src/hello.c: In function ‘main’:
+../src/hello.c:58:19: warning: passing argument 1 of ‘getArr’ from incompatible pointer type [-Wincompatible-pointer-types]
+src/subdir.mk:18: ошибка выполнения рецепта для цели «src/hello.o»
+  int res = getArr(&arr);
+                   ^
+../src/hello.c:17:5: note: expected ‘int *’ but argument is of type ‘int (*)[10]’
+ int getArr(int* arr){
+     ^
+../src/hello.c:58:6: warning: unused variable ‘res’ [-Wunused-variable]
+  int res = getArr(&arr);
+      ^
+make: *** [src/hello.o] Ошибка 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:46:46 **** Incremental Build of configuration Debug for project hello ****
+make all 
+Building file: ../src/hello.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function ‘getArr’:
+../src/hello.c:22:6: error: invalid type argument of unary ‘*’ (have ‘int’)
+   if(*arr[i] % 2 != 0){
+      ^
+../src/hello.c:23:4: error: invalid type argument of unary ‘*’ (have ‘int’)
+    *arr[i] = *arr[i]*2;
+    ^
+../src/hello.c:23:14: error: invalid type argument of unary ‘*’ (have ‘int’)
+    *arr[i] = *arr[i]*2;
+              ^
+../src/hello.c: In function ‘main’:
+../src/hello.c:58:19: warning: passing argument 1 of ‘getArr’ from incompatible pointer type [-Wincompatible-pointer-types]
+  int res = getArr(&arr);
+                   ^
+../src/hello.c:17:5: note: expected ‘int *’ but argument is of type ‘int (*)[10]’
+src/subdir.mk:18: ошибка выполнения рецепта для цели «src/hello.o»
+ int getArr(int* arr){
+     ^
+../src/hello.c:58:6: warning: unused variable ‘res’ [-Wunused-variable]
+  int res = getArr(&arr);
+      ^
+make: *** [src/hello.o] Ошибка 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:57:51 **** Incremental Build of configuration Debug for project hello ****
+make all 
+Building file: ../src/hello.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function ‘getArr’:
+../src/hello.c:23:4: error: invalid type argument of unary ‘*’ (have ‘int’)
+    *arr[i] = *(arr+i) * 2;
+    ^
+../src/hello.c: In function ‘main’:
+../src/hello.c:58:19: warning: passing argument 1 of ‘getArr’ from incompatible pointer type [-Wincompatible-pointer-types]
+  int res = getArr(&arr,LENGTH_ARR);
+                   ^
+../src/hello.c:17:5: note: expected ‘int *’ but argument is of type ‘int (*)[10]’
+ int getArr(int* arr, int length){
+     ^
+../src/hello.c:58:6: warning: unused variable ‘res’ [-Wunused-variable]
+  int res = getArr(&arr,LENGTH_ARR);
+      ^
+make: *** [src/hello.o] Ошибка 1
+src/subdir.mk:18: ошибка выполнения рецепта для цели «src/hello.o»
+"make all" terminated with exit code 2. Build might be incomplete.
+19:58:56 **** Incremental Build of configuration Debug for project hello ****
+make all 
+Building file: ../src/hello.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function ‘getArr’:
+../src/hello.c:23:4: error: invalid type argument of unary ‘*’ (have ‘int’)
+    *arr[i] = *arr[i] * 2;
+    ^
+../src/hello.c:23:14: error: invalid type argument of unary ‘*’ (have ‘int’)
+    *arr[i] = *arr[i] * 2;
+              ^
+../src/hello.c: In function ‘main’:
+../src/hello.c:58:19: warning: passing argument 1 of ‘getArr’ from incompatible pointer type [-Wincompatible-pointer-types]
+  int res = getArr(&arr,LENGTH_ARR);
+                   ^
+../src/hello.c:17:5: note: expected ‘int *’ but argument is of type ‘int (*)[10]’
+ int getArr(int* arr, int length){
+src/subdir.mk:18: ошибка выполнения рецепта для цели «src/hello.o»
+     ^
+../src/hello.c:58:6: warning: unused variable ‘res’ [-Wunused-variable]
+  int res = getArr(&arr,LENGTH_ARR);
+      ^
+make: *** [src/hello.o] Ошибка 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:00:59 **** Incremental Build of configuration Debug for project hello ****
+make all 
+Building file: ../src/hello.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function ‘getArr’:
+../src/hello.c:23:4: error: invalid type argument of unary ‘*’ (have ‘int’)
+    *arr[i] = *arr[i] * 2;
+    ^
+../src/hello.c:23:14: error: invalid type argument of unary ‘*’ (have ‘int’)
+    *arr[i] = *arr[i] * 2;
+              ^
+../src/hello.c: In function ‘main’:
+../src/hello.c:58:24: error: lvalue required as unary ‘&’ operand
+  int res = getArr(&arr,&LENGTH_ARR);
+                        ^
+../src/hello.c:58:19: warning: passing argument 1 of ‘getArr’ from incompatible pointer type [-Wincompatible-pointer-types]
+  int res = getArr(&arr,&LENGTH_ARR);
+                   ^
+../src/hello.c:17:5: note: expected ‘int *’ but argument is of type ‘int (*)[10]’
+ int getArr(int* arr, int* length){
+     ^
+../src/hello.c:58:6: warning: unused variable ‘res’ [-Wunused-variable]
+src/subdir.mk:18: ошибка выполнения рецепта для цели «src/hello.o»
+  int res = getArr(&arr,&LENGTH_ARR);
+      ^
+make: *** [src/hello.o] Ошибка 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:02:00 **** Incremental Build of configuration Debug for project hello ****
+make all 
+Building file: ../src/hello.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function ‘getArr’:
+../src/hello.c:23:4: error: lvalue required as unary ‘&’ operand
+    &(arr+i) = *(arr+i) * 2;
+    ^
+../src/hello.c: In function ‘main’:
+../src/hello.c:58:24: error: lvalue required as unary ‘&’ operand
+  int res = getArr(&arr,&LENGTH_ARR);
+                        ^
+../src/hello.c:58:19: warning: passing argument 1 of ‘getArr’ from incompatible pointer type [-Wincompatible-pointer-types]
+  int res = getArr(&arr,&LENGTH_ARR);
+                   ^
+src/subdir.mk:18: ошибка выполнения рецепта для цели «src/hello.o»
+../src/hello.c:17:5: note: expected ‘int *’ but argument is of type ‘int (*)[10]’
+ int getArr(int* arr, int* length){
+     ^
+../src/hello.c:58:6: warning: unused variable ‘res’ [-Wunused-variable]
+  int res = getArr(&arr,&LENGTH_ARR);
+      ^
+make: *** [src/hello.o] Ошибка 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:03:31 **** Incremental Build of configuration Debug for project hello ****
+make all 
+Building file: ../src/hello.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function ‘getArr’:
+../src/hello.c:23:4: error: lvalue required as unary ‘&’ operand
+    &(arr+i) = *(arr+i) * 2;
+    ^
+../src/hello.c: In function ‘main’:
+../src/hello.c:58:19: warning: passing argument 1 of ‘getArr’ from incompatible pointer type [-Wincompatible-pointer-types]
+  int res = getArr(&arr);
+                   ^
+../src/hello.c:17:5: note: expected ‘int *’ but argument is of type ‘int (*)[10]’
+ int getArr(int* arr){
+     ^
+../src/hello.c:58:6: warning: unused variable ‘res’ [-Wunused-variable]
+  int res = getArr(&arr);
+      ^
+src/subdir.mk:18: ошибка выполнения рецепта для цели «src/hello.o»
+make: *** [src/hello.o] Ошибка 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:07:54 **** Incremental Build of configuration Debug for project hello ****
+make all 
+Building file: ../src/hello.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+Finished building: ../src/hello.c
+ 
+Building target: hello
+Invoking: Cross GCC Linker
+gcc  -o "hello"  ./src/hello.o   -lm
+Finished building target: hello
+ 
+20:08:03 **** Incremental Build of configuration Debug for project hello ****
+make all 
+make: Цель «all» не требует выполнения команд.
+20:11:05 **** Incremental Build of configuration Debug for project hello ****
+make all 
+Building file: ../src/hello.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+Finished building: ../src/hello.c
+ 
+Building target: hello
+Invoking: Cross GCC Linker
+gcc  -o "hello"  ./src/hello.o   -lm
+Finished building target: hello
+ 
+20:11:12 **** Incremental Build of configuration Debug for project hello ****
+make all 
+make: Цель «all» не требует выполнения команд.
+20:12:57 **** Incremental Build of configuration Debug for project hello ****
+make all 
+Building file: ../src/hello.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+Finished building: ../src/hello.c
+ 
+Building target: hello
+Invoking: Cross GCC Linker
+gcc  -o "hello"  ./src/hello.o   -lm
+Finished building target: hello
+ 
+20:13:01 **** Incremental Build of configuration Debug for project hello ****
+make all 
+make: Цель «all» не требует выполнения команд.
+20:13:14 **** Incremental Build of configuration Debug for project hello ****
+make all 
+Building file: ../src/hello.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+Finished building: ../src/hello.c
+ 
+Building target: hello
+Invoking: Cross GCC Linker
+gcc  -o "hello"  ./src/hello.o   -lm
+Finished building target: hello
+ 
+20:13:17 **** Incremental Build of configuration Debug for project hello ****
 make all 
 make: Цель «all» не требует выполнения команд.
